@@ -1,8 +1,8 @@
 let player; // Variable global para controlar el iframe
 
-metodos = ["a14n", "a16", "o0"]
+metodos = ["a14n", "a16", "v2"]
 // Carga el iframe de YouTube y crea el reproductor
-function openVideo() {
+function openVideo() { 
   videoId = 'dsdjDx3gKa8'; // <-- remplaza con el ID del video real
   const modal = document.getElementById('videoModal');
   modal.classList.remove('hidden');
@@ -13,7 +13,7 @@ function openVideo() {
   // Comprueba si el metodo se encuentra en la lista metodos 
 
   if (metodos.includes(metodo)) {
-      videoId = 'PiSAVgkWkrc'; // <-- remplaza con el ID del video real
+      videoId = 'KooISRw98jc'; // <-- remplaza con el ID del video real
   }
 
   if (!player) {
